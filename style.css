@@ -1,0 +1,70 @@
+header {
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    border: solid gold;
+    padding: 0.5em 1em;
+    background-color: lightyellow;
+    margin: 0.5em 1em;
+    box-shadow: blue 0.2em 0.2em;
+}
+nav li :link{
+    color: green;
+}
+nav li :visited{
+    color: green;
+}
+nav li :hover{
+    width: 100px;
+    background-color: lightblue;
+}
+nav li :active{
+    color: green
+}
+div{
+    font-family: 'Courier New', Courier, monospace;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main aside"
+    "footer footer footer";
+    gap: 10px;
+    background-color: yellow;
+}.grid-container header{
+    grid-area: header;
+    background-color: white;
+}
+.grid-container nav{
+    grid-area: nav;
+    background-color: white;
+}
+.grid-container main{
+    grid-area: main;
+    background-color: white;
+}
+.grid-container aside{
+    grid-area: aside;
+    background-color: white;
+}
+.grid-container footer{
+    grid-area: footer;
+    background-color: white;
+}
+
+nav{
+    background: linear-gradient(rgb(55, 129, 197), white);
+}
+table.table-discount{
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
